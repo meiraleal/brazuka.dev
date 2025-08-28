@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="view-transition" content="same-origin">
   <title>meetuprio</title>
   <link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body class="production flex">
   
   <app-container class="flex flex-grow router-ui app-container" routes="{&quot;/&quot;:{&quot;title&quot;:&quot;Feed&quot;,&quot;template&quot;:&quot;app-template&quot;},&quot;/theme&quot;:{&quot;title&quot;:&quot;Theme&quot;,&quot;template&quot;:&quot;uix-template&quot;},&quot;/admin&quot;:{&quot;title&quot;:&quot;Admin&quot;,&quot;template&quot;:&quot;admin-template&quot;},&quot;/admin/cms&quot;:{&quot;title&quot;:&quot;Data&quot;,&quot;template&quot;:&quot;admin-template&quot;},&quot;/admin/chat&quot;:{&quot;title&quot;:&quot;Data&quot;,&quot;template&quot;:&quot;admin-template&quot;},&quot;/admin/ide&quot;:{&quot;title&quot;:&quot;IDE&quot;,&quot;template&quot;:&quot;admin-template&quot;},&quot;/admin/bundler&quot;:{&quot;title&quot;:&quot;Bundler&quot;,&quot;template&quot;:&quot;admin-template&quot;},&quot;/admin/project&quot;:{&quot;title&quot;:&quot;Data&quot;,&quot;template&quot;:&quot;admin-template&quot;},&quot;/admin/design&quot;:{&quot;title&quot;:&quot;Design&quot;,&quot;template&quot;:&quot;admin-template&quot;},&quot;/admin/design/:component&quot;:{&quot;title&quot;:&quot;Component Design&quot;,&quot;template&quot;:&quot;admin-template&quot;},&quot;/admin/cms/:model&quot;:{&quot;title&quot;:&quot;CMS&quot;,&quot;template&quot;:&quot;admin-template&quot;},&quot;/projects&quot;:{&quot;title&quot;:&quot;Projects&quot;,&quot;template&quot;:&quot;app-template&quot;},&quot;/bookmarks&quot;:{&quot;title&quot;:&quot;Bookmarks&quot;,&quot;template&quot;:&quot;app-template&quot;},&quot;/posts&quot;:{&quot;title&quot;:&quot;Posts&quot;,&quot;template&quot;:&quot;app-template&quot;},&quot;/posts/:id&quot;:{&quot;title&quot;:&quot;Post&quot;,&quot;template&quot;:&quot;app-template&quot;},&quot;/links/:id&quot;:{&quot;title&quot;:&quot;Link&quot;,&quot;template&quot;:&quot;app-template&quot;},&quot;/projects/:id&quot;:{&quot;title&quot;:&quot;Project&quot;,&quot;template&quot;:&quot;app-template&quot;},&quot;/tags/:id&quot;:{&quot;title&quot;:&quot;Tag&quot;,&quot;template&quot;:&quot;app-template&quot;}}" full=""><!----><app-template class="max-w-screen-xl mx-auto flex app-template" component="{&quot;_$litType$&quot;:1,&quot;strings&quot;:[&quot;<feed-view></feed-view>&quot;],&quot;values&quot;:[]}">
 			<!---->
@@ -15,71 +16,71 @@
                 <div class="text-3xl font-bold text-indigo-600 mb-4">
                     <uix-icon name="feather" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><path fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot; d=&quot;M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1zM16 8L2 22m15.5-7H9&quot;/></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1zM16 8L2 22m15.5-7H9"></path></svg></uix-icon>
                 </div>
-                <!--?lit$187430607$--><!---->
+                <!--?lit$124160659$--><!---->
                     <uix-button class="flex gap-4 text-xl w-full text-start rounded-full uix-link uix-button" ghost="" href="/" icon="layout-grid" label="Feed" click="function click() { [native code] }" variant="default" style="--_variant-color-50: var(--colors-default-50); --_variant-color-300: var(--colors-default-300); --_variant-color-400: var(--colors-default-400); --_variant-color-500: var(--colors-default-500); --_variant-color-600: var(--colors-default-600); --_variant-color-700: var(--colors-default-700); --_variant-color-800: var(--colors-default-800);"><!----><a content="" class="uix-text-icon__element" href="/" related="" name="Feed" alt="Feed">
-            <!--?lit$187430607$--><uix-icon name="layout-grid" alt="Feed" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><g fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;><rect width=&quot;7&quot; height=&quot;7&quot; x=&quot;3&quot; y=&quot;3&quot; rx=&quot;1&quot;/><rect width=&quot;7&quot; height=&quot;7&quot; x=&quot;14&quot; y=&quot;3&quot; rx=&quot;1&quot;/><rect width=&quot;7&quot; height=&quot;7&quot; x=&quot;14&quot; y=&quot;14&quot; rx=&quot;1&quot;/><rect width=&quot;7&quot; height=&quot;7&quot; x=&quot;3&quot; y=&quot;14&quot; rx=&quot;1&quot;/></g></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></g></svg></uix-icon>
-            <!--?lit$187430607$-->Feed
+            <!--?lit$124160659$--><uix-icon name="layout-grid" alt="Feed" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><g fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;><rect width=&quot;7&quot; height=&quot;7&quot; x=&quot;3&quot; y=&quot;3&quot; rx=&quot;1&quot;/><rect width=&quot;7&quot; height=&quot;7&quot; x=&quot;14&quot; y=&quot;3&quot; rx=&quot;1&quot;/><rect width=&quot;7&quot; height=&quot;7&quot; x=&quot;14&quot; y=&quot;14&quot; rx=&quot;1&quot;/><rect width=&quot;7&quot; height=&quot;7&quot; x=&quot;3&quot; y=&quot;14&quot; rx=&quot;1&quot;/></g></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></g></svg></uix-icon>
+            <!--?lit$124160659$-->Feed
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-button>
                 <!----><!---->
                     <uix-button class="flex gap-4 text-xl w-full text-start rounded-full uix-link uix-button" ghost="" href="/posts" icon="notebook-tabs" label="Posts" click="function click() { [native code] }" variant="default" style="--_variant-color-50: var(--colors-default-50); --_variant-color-300: var(--colors-default-300); --_variant-color-400: var(--colors-default-400); --_variant-color-500: var(--colors-default-500); --_variant-color-600: var(--colors-default-600); --_variant-color-700: var(--colors-default-700); --_variant-color-800: var(--colors-default-800);"><!----><a content="" class="uix-text-icon__element" href="/posts" related="" name="Posts" alt="Posts">
-            <!--?lit$187430607$--><uix-icon name="notebook-tabs" alt="Posts" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><g fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;><path d=&quot;M2 6h4m-4 4h4m-4 4h4m-4 4h4&quot;/><rect width=&quot;16&quot; height=&quot;20&quot; x=&quot;4&quot; y=&quot;2&quot; rx=&quot;2&quot;/><path d=&quot;M15 2v20m0-15h5m-5 5h5m-5 5h5&quot;/></g></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M2 6h4m-4 4h4m-4 4h4m-4 4h4"></path><rect width="16" height="20" x="4" y="2" rx="2"></rect><path d="M15 2v20m0-15h5m-5 5h5m-5 5h5"></path></g></svg></uix-icon>
-            <!--?lit$187430607$-->Posts
+            <!--?lit$124160659$--><uix-icon name="notebook-tabs" alt="Posts" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><g fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;><path d=&quot;M2 6h4m-4 4h4m-4 4h4m-4 4h4&quot;/><rect width=&quot;16&quot; height=&quot;20&quot; x=&quot;4&quot; y=&quot;2&quot; rx=&quot;2&quot;/><path d=&quot;M15 2v20m0-15h5m-5 5h5m-5 5h5&quot;/></g></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M2 6h4m-4 4h4m-4 4h4m-4 4h4"></path><rect width="16" height="20" x="4" y="2" rx="2"></rect><path d="M15 2v20m0-15h5m-5 5h5m-5 5h5"></path></g></svg></uix-icon>
+            <!--?lit$124160659$-->Posts
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-button>
                 <!----><!---->
                     <uix-button class="flex gap-4 text-xl w-full text-start rounded-full uix-link uix-button" ghost="" href="/bookmarks" icon="bookmark" label="Bookmarks" click="function click() { [native code] }" variant="default" style="--_variant-color-50: var(--colors-default-50); --_variant-color-300: var(--colors-default-300); --_variant-color-400: var(--colors-default-400); --_variant-color-500: var(--colors-default-500); --_variant-color-600: var(--colors-default-600); --_variant-color-700: var(--colors-default-700); --_variant-color-800: var(--colors-default-800);"><!----><a content="" class="uix-text-icon__element" href="/bookmarks" related="" name="Bookmarks" alt="Bookmarks">
-            <!--?lit$187430607$--><uix-icon name="bookmark" alt="Bookmarks" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><path fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot; d=&quot;m19 21l-7-4l-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z&quot;/></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 21l-7-4l-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg></uix-icon>
-            <!--?lit$187430607$-->Bookmarks
+            <!--?lit$124160659$--><uix-icon name="bookmark" alt="Bookmarks" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><path fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot; d=&quot;m19 21l-7-4l-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z&quot;/></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 21l-7-4l-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg></uix-icon>
+            <!--?lit$124160659$-->Bookmarks
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-button>
                 <!----><!---->
                     <uix-button class="flex gap-4 text-xl w-full text-start rounded-full uix-link uix-button" ghost="" href="/projects" icon="folder-kanban" label="Projects" click="function click() { [native code] }" variant="default" style="--_variant-color-50: var(--colors-default-50); --_variant-color-300: var(--colors-default-300); --_variant-color-400: var(--colors-default-400); --_variant-color-500: var(--colors-default-500); --_variant-color-600: var(--colors-default-600); --_variant-color-700: var(--colors-default-700); --_variant-color-800: var(--colors-default-800);"><!----><a content="" class="uix-text-icon__element" href="/projects" related="" name="Projects" alt="Projects">
-            <!--?lit$187430607$--><uix-icon name="folder-kanban" alt="Projects" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><path fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot; d=&quot;M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2m4-10v4m4-4v2m4-2v6&quot;/></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2m4-10v4m4-4v2m4-2v6"></path></svg></uix-icon>
-            <!--?lit$187430607$-->Projects
+            <!--?lit$124160659$--><uix-icon name="folder-kanban" alt="Projects" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><path fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot; d=&quot;M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2m4-10v4m4-4v2m4-2v6&quot;/></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2m4-10v4m4-4v2m4-2v6"></path></svg></uix-icon>
+            <!--?lit$124160659$-->Projects
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-button>
                 <!----><!---->
                     <uix-button class="flex gap-4 text-xl w-full text-start rounded-full uix-link uix-button" ghost="" href="#" icon="user" label="Profile" click="function click() { [native code] }" variant="default" style="--_variant-color-50: var(--colors-default-50); --_variant-color-300: var(--colors-default-300); --_variant-color-400: var(--colors-default-400); --_variant-color-500: var(--colors-default-500); --_variant-color-600: var(--colors-default-600); --_variant-color-700: var(--colors-default-700); --_variant-color-800: var(--colors-default-800);"><!----><a content="" class="uix-text-icon__element" href="#" related="" name="Profile" alt="Profile">
-            <!--?lit$187430607$--><uix-icon name="user" alt="Profile" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><g fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;><path d=&quot;M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2&quot;/><circle cx=&quot;12&quot; cy=&quot;7&quot; r=&quot;4&quot;/></g></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></g></svg></uix-icon>
-            <!--?lit$187430607$-->Profile
+            <!--?lit$124160659$--><uix-icon name="user" alt="Profile" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><g fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;><path d=&quot;M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2&quot;/><circle cx=&quot;12&quot; cy=&quot;7&quot; r=&quot;4&quot;/></g></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></g></svg></uix-icon>
+            <!--?lit$124160659$-->Profile
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-button>
                 <!----><!---->
                     <uix-button class="flex gap-4 text-xl w-full text-start rounded-full uix-link uix-button" ghost="" href="#" icon="settings" label="Settings" click="function click() { [native code] }" variant="default" style="--_variant-color-50: var(--colors-default-50); --_variant-color-300: var(--colors-default-300); --_variant-color-400: var(--colors-default-400); --_variant-color-500: var(--colors-default-500); --_variant-color-600: var(--colors-default-600); --_variant-color-700: var(--colors-default-700); --_variant-color-800: var(--colors-default-800);"><!----><a content="" class="uix-text-icon__element" href="#" related="" name="Settings" alt="Settings">
-            <!--?lit$187430607$--><uix-icon name="settings" alt="Settings" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><g fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;><path d=&quot;M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2&quot;/><circle cx=&quot;12&quot; cy=&quot;12&quot; r=&quot;3&quot;/></g></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2"></path><circle cx="12" cy="12" r="3"></circle></g></svg></uix-icon>
-            <!--?lit$187430607$-->Settings
+            <!--?lit$124160659$--><uix-icon name="settings" alt="Settings" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><g fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;><path d=&quot;M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2&quot;/><circle cx=&quot;12&quot; cy=&quot;12&quot; r=&quot;3&quot;/></g></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2"></path><circle cx="12" cy="12" r="3"></circle></g></svg></uix-icon>
+            <!--?lit$124160659$-->Settings
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-button>
                 <!---->
                 <theme-darkmode class="flex items-center gap-4 text-xl rounded-full w-full uix-link uix-button theme-darkmode" label="Dark Mode" ghost="" click="click(e) {
@@ -87,29 +88,29 @@
 		this.darkmode = !this.darkmode;
 		this.icon = !this.darkmode ? &quot;sun&quot; : &quot;moon&quot;;
 	}" variant="default" width="fit" icon="sun" style="--_variant-color-50: var(--colors-default-50); --_variant-color-300: var(--colors-default-300); --_variant-color-400: var(--colors-default-400); --_variant-color-500: var(--colors-default-500); --_variant-color-600: var(--colors-default-600); --_variant-color-700: var(--colors-default-700); --_variant-color-800: var(--colors-default-800);"><!----><a content="" class="uix-text-icon__element" href="" related="" name="Dark Mode" alt="Dark Mode">
-            <!--?lit$187430607$--><uix-icon name="sun" alt="Dark Mode" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><g fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;><circle cx=&quot;12&quot; cy=&quot;12&quot; r=&quot;4&quot;/><path d=&quot;M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41&quot;/></g></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></g></svg></uix-icon>
-            <!--?lit$187430607$-->Dark Mode
+            <!--?lit$124160659$--><uix-icon name="sun" alt="Dark Mode" size="" class="uix-icon" svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;><g fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;><circle cx=&quot;12&quot; cy=&quot;12&quot; r=&quot;4&quot;/><path d=&quot;M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41&quot;/></g></svg>"><!----><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></g></svg></uix-icon>
+            <!--?lit$124160659$-->Dark Mode
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </theme-darkmode>
                 <uix-button label="New Post" class="mt-4 w-full is-primary is-lg rounded-full uix-link uix-button" click="function click() { [native code] }" variant="default" style="--_variant-color-50: var(--colors-default-50); --_variant-color-300: var(--colors-default-300); --_variant-color-400: var(--colors-default-400); --_variant-color-500: var(--colors-default-500); --_variant-color-600: var(--colors-default-600); --_variant-color-700: var(--colors-default-700); --_variant-color-800: var(--colors-default-800);"><!----><a content="" class="" href="" related="" name="New Post" alt="New Post">
-            <!--?lit$187430607$-->
-            <!--?lit$187430607$-->New Post
+            <!--?lit$124160659$-->
+            <!--?lit$124160659$-->New Post
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-button>
             </div>
         </left-sidebar>
 				<main class="w-1/2 border-l border-r border-gray-200 min-h-screen">
-					<!--?lit$187430607$--><tag-detail-view _data="{&quot;model&quot;:&quot;tags&quot;,&quot;id&quot;:&quot;tag-webdev&quot;,&quot;includes&quot;:[&quot;taggable&quot;]}" class="tag-detail-view" _row="{&quot;id&quot;:&quot;tag-webdev&quot;,&quot;name&quot;:&quot;Web Development&quot;,&quot;taggable&quot;:[],&quot;_modelName&quot;:&quot;tags&quot;}"><!----><div class="p-4 border-b bg-white"><uix-spinner class="uix-spinner"><!---->
+					<!--?lit$124160659$--><tag-detail-view _data="{&quot;model&quot;:&quot;tags&quot;,&quot;id&quot;:&quot;tag-webdev&quot;,&quot;includes&quot;:[&quot;taggable&quot;]}" class="tag-detail-view" _row="{&quot;id&quot;:&quot;tag-webdev&quot;,&quot;name&quot;:&quot;Web Development&quot;,&quot;taggable&quot;:[],&quot;_modelName&quot;:&quot;tags&quot;}"><!----><div class="p-4 border-b bg-white"><uix-spinner class="uix-spinner"><!---->
 		<div class="uix-spinner_container">
 			<span class="uix-spinner__element">
 			</span>
@@ -119,51 +120,51 @@
 				<right-sidebar class="w-1/4 pl-8 py-4 right-sidebar"><!---->
             <div class="sticky top-4 flex flex-col gap-6">
                  <uix-input placeholder="Search" icon="search" type="text" rows="4" class="uix-input" name="uix-input-12"><!---->
-            <!--?lit$187430607$-->
+            <!--?lit$124160659$-->
                 <input -="" id="uix-input-12" name="uix-input-12" type="text" value="" placeholder="Search">
             
-            <!--?lit$187430607$-->
+            <!--?lit$124160659$-->
         </uix-input>
                  <div class="bg-gray-100 p-4 rounded-lg">
                     <h3 class="font-bold text-lg mb-2">Tags</h3>
                     <tags-list _data="{&quot;model&quot;:&quot;tags&quot;}" class="tags-list" _rows="[{&quot;id&quot;:&quot;tag-ai&quot;,&quot;name&quot;:&quot;AI&quot;,&quot;taggable&quot;:[],&quot;_modelName&quot;:&quot;tags&quot;},{&quot;id&quot;:&quot;tag-api&quot;,&quot;name&quot;:&quot;API&quot;,&quot;taggable&quot;:[],&quot;_modelName&quot;:&quot;tags&quot;},{&quot;id&quot;:&quot;tag-js&quot;,&quot;name&quot;:&quot;JavaScript&quot;,&quot;taggable&quot;:[],&quot;_modelName&quot;:&quot;tags&quot;},{&quot;id&quot;:&quot;tag-webdev&quot;,&quot;name&quot;:&quot;Web Development&quot;,&quot;taggable&quot;:[],&quot;_modelName&quot;:&quot;tags&quot;}]"><!---->
 				<div class="flex flex-wrap gap-2">
-					<!--?lit$187430607$--><!----><uix-link class="text-sm bg-white px-2 py-1 rounded-full border hover:border-indigo-500 uix-link" href="/tags/tag-ai" label="#AI" click="function click() { [native code] }"><!----><a content="" class="" href="/tags/tag-ai" related="" name="#AI" alt="#AI">
-            <!--?lit$187430607$-->
-            <!--?lit$187430607$-->#AI
+					<!--?lit$124160659$--><!----><uix-link class="text-sm bg-white px-2 py-1 rounded-full border hover:border-indigo-500 uix-link" href="/tags/tag-ai" label="#AI" click="function click() { [native code] }"><!----><a content="" class="" href="/tags/tag-ai" related="" name="#AI" alt="#AI">
+            <!--?lit$124160659$-->
+            <!--?lit$124160659$-->#AI
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-link><!----><!----><uix-link class="text-sm bg-white px-2 py-1 rounded-full border hover:border-indigo-500 uix-link" href="/tags/tag-api" label="#API" click="function click() { [native code] }"><!----><a content="" class="" href="/tags/tag-api" related="" name="#API" alt="#API">
-            <!--?lit$187430607$-->
-            <!--?lit$187430607$-->#API
+            <!--?lit$124160659$-->
+            <!--?lit$124160659$-->#API
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-link><!----><!----><uix-link class="text-sm bg-white px-2 py-1 rounded-full border hover:border-indigo-500 uix-link" href="/tags/tag-js" label="#JavaScript" click="function click() { [native code] }"><!----><a content="" class="" href="/tags/tag-js" related="" name="#JavaScript" alt="#JavaScript">
-            <!--?lit$187430607$-->
-            <!--?lit$187430607$-->#JavaScript
+            <!--?lit$124160659$-->
+            <!--?lit$124160659$-->#JavaScript
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-link><!----><!----><uix-link class="text-sm bg-white px-2 py-1 rounded-full border hover:border-indigo-500 uix-link" href="/tags/tag-webdev" label="#Web Development" click="function click() { [native code] }"><!----><a content="" class="" href="/tags/tag-webdev" related="" name="#Web Development" alt="#Web Development">
-            <!--?lit$187430607$-->
-            <!--?lit$187430607$-->#Web Development
+            <!--?lit$124160659$-->
+            <!--?lit$124160659$-->#Web Development
         </a>
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
-        <!--?lit$187430607$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
+        <!--?lit$124160659$-->
     </uix-link><!---->
 				</div>
 			</tags-list>
