@@ -867,22 +867,6 @@
 	stroke: currentColor;
 	fill: currentColor;
 }
-:where(.uix-card) {
-	display: flex;
-	padding: var(--uix-card-padding, 10px);
-	border-width: var(--uix-card-border-size);
-	border-radius: var(--uix-card-border-radius, var(--radius-md));
-	background-color: var(--uix-card-background-color, #fff);
-	border-color: var(--uix-card-border-color, transparent);
-	box-shadow: var(--uix-card-shadow, 0 4px 6px rgba(0, 0, 0, 0.1));
-	list-style-type: var(--uix-card-list-style-type);
-	color: var(--uix-card-text-color);
-
-	&[clickable],
-	&[clickable] * {
-		cursor: pointer;
-	}
-}
 .uix-table {
 	--uix-table-header-background-color: var(--colors-default-100);
 	--uix-table-background-color: #fff;
@@ -921,6 +905,22 @@
 	.uix-table__row-group {
 		background-color: var(--uix-table-background-color, var(--color-surface-40));
 		display: table-row-group;
+	}
+}
+:where(.uix-card) {
+	display: flex;
+	padding: var(--uix-card-padding, 10px);
+	border-width: var(--uix-card-border-size);
+	border-radius: var(--uix-card-border-radius, var(--radius-md));
+	background-color: var(--uix-card-background-color, #fff);
+	border-color: var(--uix-card-border-color, transparent);
+	box-shadow: var(--uix-card-shadow, 0 4px 6px rgba(0, 0, 0, 0.1));
+	list-style-type: var(--uix-card-list-style-type);
+	color: var(--uix-card-text-color);
+
+	&[clickable],
+	&[clickable] * {
+		cursor: pointer;
 	}
 }
 .uix-droparea {
@@ -1837,23 +1837,6 @@ div [container][horizontal] {
 	fill: currentColor;
 }
 
-:where(.uix-card) {
-	display: flex;
-	padding: var(--uix-card-padding, 10px);
-	border-width: var(--uix-card-border-size);
-	border-radius: var(--uix-card-border-radius, var(--radius-md));
-	background-color: var(--uix-card-background-color, #fff);
-	border-color: var(--uix-card-border-color, transparent);
-	box-shadow: var(--uix-card-shadow, 0 4px 6px rgba(0, 0, 0, 0.1));
-	list-style-type: var(--uix-card-list-style-type);
-	color: var(--uix-card-text-color);
-
-	&[clickable],
-	&[clickable] * {
-		cursor: pointer;
-	}
-}
-
 .uix-table {
 	--uix-table-header-background-color: var(--colors-default-100);
 	--uix-table-background-color: #fff;
@@ -1892,6 +1875,23 @@ div [container][horizontal] {
 	.uix-table__row-group {
 		background-color: var(--uix-table-background-color, var(--color-surface-40));
 		display: table-row-group;
+	}
+}
+
+:where(.uix-card) {
+	display: flex;
+	padding: var(--uix-card-padding, 10px);
+	border-width: var(--uix-card-border-size);
+	border-radius: var(--uix-card-border-radius, var(--radius-md));
+	background-color: var(--uix-card-background-color, #fff);
+	border-color: var(--uix-card-border-color, transparent);
+	box-shadow: var(--uix-card-shadow, 0 4px 6px rgba(0, 0, 0, 0.1));
+	list-style-type: var(--uix-card-list-style-type);
+	color: var(--uix-card-text-color);
+
+	&[clickable],
+	&[clickable] * {
+		cursor: pointer;
 	}
 }
 
