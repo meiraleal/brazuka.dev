@@ -214,6 +214,7 @@
 .max-w-screen-xl{max-width:80rem;}
 .block{display:block;}
 .inline-block{display:inline-block;}
+.contents{display:contents;}
 .list-item{display:list-item;}
 .hidden{display:none;}
 .visible{visibility:visible;}
@@ -232,7 +233,9 @@
 .transition-opacity{transition-property:opacity;transition-timing-function:var(--un-ease, var(--default-transition-timingFunction));transition-duration:var(--un-duration, var(--default-transition-duration));}
 .transition-transform{transition-property:transform,translate,scale,rotate;transition-timing-function:var(--un-ease, var(--default-transition-timingFunction));transition-duration:var(--un-duration, var(--default-transition-duration));}
 .duration-300{--un-duration:300ms;transition-duration:300ms;}
+.ease{--un-ease:var(--ease-DEFAULT);transition-timing-function:var(--ease-DEFAULT);}
 .ease-in-out{--un-ease:var(--ease-in-out);transition-timing-function:var(--ease-in-out);}
+.ease-out{--un-ease:var(--ease-out);transition-timing-function:var(--ease-out);}
 .items-start{align-items:flex-start;}
 .items-end{align-items:flex-end;}
 .items-center{align-items:center;}
@@ -259,6 +262,10 @@
 .bg-center{background-position:center;}
 .backdrop-blur-sm{--un-backdrop-blur:blur(8px);-webkit-backdrop-filter:var(--un-backdrop-blur,) var(--un-backdrop-brightness,) var(--un-backdrop-contrast,) var(--un-backdrop-grayscale,) var(--un-backdrop-hue-rotate,) var(--un-backdrop-invert,) var(--un-backdrop-opacity,) var(--un-backdrop-saturate,) var(--un-backdrop-sepia,);backdrop-filter:var(--un-backdrop-blur,) var(--un-backdrop-brightness,) var(--un-backdrop-contrast,) var(--un-backdrop-grayscale,) var(--un-backdrop-hue-rotate,) var(--un-backdrop-invert,) var(--un-backdrop-opacity,) var(--un-backdrop-saturate,) var(--un-backdrop-sepia,);}
 .table{display:table;}
+.table-cell{display:table-cell;}
+.table-header-group{display:table-header-group;}
+.table-row{display:table-row;}
+.table-row-group{display:table-row-group;}
 .border-collapse{border-collapse:collapse;}
 .space-y-2>:not(:last-child){--un-space-y-reverse:0;margin-block-start: calc(calc(var(--spacing) * 2) * var(--un-space-y-reverse));margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--un-space-y-reverse)));}
 @supports (color: color-mix(in lab, red, red)){
