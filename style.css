@@ -347,76 +347,6 @@
 		}
 	}
 }
-.uix-modal {
-	/* Default component variables */
-	--uix-modal-background-color: var(--colors-surface-100, #ffffff);
-	--uix-modal-text-color: var(--colors-default-900, #111827);
-	--uix-modal-padding: calc(var(--spacing) * 6);
-	--uix-modal-border-radius: var(--radius-md);
-	--uix-modal-box-shadow: var(
-		--shadow-xl,
-		0 20px 25px -5px rgb(0 0 0 / 0.1),
-		0 8px 10px -6px rgb(0 0 0 / 0.1)
-	);
-	--uix-modal-max-width: var(--sizes-md, 64rem);
-	--uix-modal-animation-duration: 200ms;
-	--uix-modal-backdrop-background-color: rgb(0 0 0 / 0.5);
-	--uix-modal-close-top: var(--spacing-2, 0.5rem);
-	--uix-modal-close-right: var(--spacing-2, 0.5rem);
-
-	/* Host element acts as a non-visual wrapper */
-	display: contents;
-}
-
-.uix-modal > dialog {
-	width: 100%;
-	max-width: var(--uix-modal-max-width);
-	padding: var(--uix-modal-padding);
-	border-radius: var(--uix-modal-border-radius);
-	background-color: var(--uix-modal-background-color);
-	color: var(--uix-modal-text-color);
-	box-shadow: var(--uix-modal-box-shadow);
-	border: none;
-	opacity: 0;
-	transform: scale(0.95);
-	transition:
-		opacity var(--uix-modal-animation-duration) ease-out,
-		transform var(--uix-modal-animation-duration) ease-out;
-
-	position: absolute;
-	margin: auto;
-	z-index: 1000;
-	overflow-y: auto;
-	box-sizing: border-box;
-}
-
-/* Styles for the new close button */
-.uix-modal .uix-modal-close-button {
-	position: absolute;
-	top: var(--uix-modal-close-top);
-	right: var(--uix-modal-close-right);
-	z-index: 10;
-}
-
-.uix-modal > dialog::backdrop {
-	background-color: transparent;
-	backdrop-filter: blur(4px);
-	transition: background-color var(--uix-modal-animation-duration) ease-out;
-}
-
-/* --- Open State --- */
-.uix-modal > dialog[open] {
-	opacity: 1;
-	transform: scale(1);
-}
-
-.uix-modal > dialog:not([open]) {
-	display: none;
-}
-
-.uix-modal > dialog[open]::backdrop {
-	background-color: var(--uix-modal-backdrop-background-color);
-}
 .uix-input {
 	--uix-input-background-color: var(--colors-surface-100);
 	--uix-input-border-color: var(--colors-default-400);
@@ -604,6 +534,76 @@
 			transform: translate(-50%, -50%);
 		}
 	}
+}
+.uix-modal {
+	/* Default component variables */
+	--uix-modal-background-color: var(--colors-surface-100, #ffffff);
+	--uix-modal-text-color: var(--colors-default-900, #111827);
+	--uix-modal-padding: calc(var(--spacing) * 6);
+	--uix-modal-border-radius: var(--radius-md);
+	--uix-modal-box-shadow: var(
+		--shadow-xl,
+		0 20px 25px -5px rgb(0 0 0 / 0.1),
+		0 8px 10px -6px rgb(0 0 0 / 0.1)
+	);
+	--uix-modal-max-width: var(--sizes-md, 64rem);
+	--uix-modal-animation-duration: 200ms;
+	--uix-modal-backdrop-background-color: rgb(0 0 0 / 0.5);
+	--uix-modal-close-top: var(--spacing-2, 0.5rem);
+	--uix-modal-close-right: var(--spacing-2, 0.5rem);
+
+	/* Host element acts as a non-visual wrapper */
+	display: contents;
+}
+
+.uix-modal > dialog {
+	width: 100%;
+	max-width: var(--uix-modal-max-width);
+	padding: var(--uix-modal-padding);
+	border-radius: var(--uix-modal-border-radius);
+	background-color: var(--uix-modal-background-color);
+	color: var(--uix-modal-text-color);
+	box-shadow: var(--uix-modal-box-shadow);
+	border: none;
+	opacity: 0;
+	transform: scale(0.95);
+	transition:
+		opacity var(--uix-modal-animation-duration) ease-out,
+		transform var(--uix-modal-animation-duration) ease-out;
+
+	position: absolute;
+	margin: auto;
+	z-index: 1000;
+	overflow-y: auto;
+	box-sizing: border-box;
+}
+
+/* Styles for the new close button */
+.uix-modal .uix-modal-close-button {
+	position: absolute;
+	top: var(--uix-modal-close-top);
+	right: var(--uix-modal-close-right);
+	z-index: 10;
+}
+
+.uix-modal > dialog::backdrop {
+	background-color: transparent;
+	backdrop-filter: blur(4px);
+	transition: background-color var(--uix-modal-animation-duration) ease-out;
+}
+
+/* --- Open State --- */
+.uix-modal > dialog[open] {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.uix-modal > dialog:not([open]) {
+	display: none;
+}
+
+.uix-modal > dialog[open]::backdrop {
+	background-color: var(--uix-modal-backdrop-background-color);
 }
 :where(.uix-link) {
 	font-weight: var(--uix-link-font-weight, 600);
@@ -1312,77 +1312,6 @@ div [container][horizontal] {
 	}
 }
 
-.uix-modal {
-	/* Default component variables */
-	--uix-modal-background-color: var(--colors-surface-100, #ffffff);
-	--uix-modal-text-color: var(--colors-default-900, #111827);
-	--uix-modal-padding: calc(var(--spacing) * 6);
-	--uix-modal-border-radius: var(--radius-md);
-	--uix-modal-box-shadow: var(
-		--shadow-xl,
-		0 20px 25px -5px rgb(0 0 0 / 0.1),
-		0 8px 10px -6px rgb(0 0 0 / 0.1)
-	);
-	--uix-modal-max-width: var(--sizes-md, 64rem);
-	--uix-modal-animation-duration: 200ms;
-	--uix-modal-backdrop-background-color: rgb(0 0 0 / 0.5);
-	--uix-modal-close-top: var(--spacing-2, 0.5rem);
-	--uix-modal-close-right: var(--spacing-2, 0.5rem);
-
-	/* Host element acts as a non-visual wrapper */
-	display: contents;
-}
-
-.uix-modal > dialog {
-	width: 100%;
-	max-width: var(--uix-modal-max-width);
-	padding: var(--uix-modal-padding);
-	border-radius: var(--uix-modal-border-radius);
-	background-color: var(--uix-modal-background-color);
-	color: var(--uix-modal-text-color);
-	box-shadow: var(--uix-modal-box-shadow);
-	border: none;
-	opacity: 0;
-	transform: scale(0.95);
-	transition:
-		opacity var(--uix-modal-animation-duration) ease-out,
-		transform var(--uix-modal-animation-duration) ease-out;
-
-	position: absolute;
-	margin: auto;
-	z-index: 1000;
-	overflow-y: auto;
-	box-sizing: border-box;
-}
-
-/* Styles for the new close button */
-.uix-modal .uix-modal-close-button {
-	position: absolute;
-	top: var(--uix-modal-close-top);
-	right: var(--uix-modal-close-right);
-	z-index: 10;
-}
-
-.uix-modal > dialog::backdrop {
-	background-color: transparent;
-	backdrop-filter: blur(4px);
-	transition: background-color var(--uix-modal-animation-duration) ease-out;
-}
-
-/* --- Open State --- */
-.uix-modal > dialog[open] {
-	opacity: 1;
-	transform: scale(1);
-}
-
-.uix-modal > dialog:not([open]) {
-	display: none;
-}
-
-.uix-modal > dialog[open]::backdrop {
-	background-color: var(--uix-modal-backdrop-background-color);
-}
-
 .uix-input {
 	--uix-input-background-color: var(--colors-surface-100);
 	--uix-input-border-color: var(--colors-default-400);
@@ -1570,6 +1499,77 @@ div [container][horizontal] {
 			transform: translate(-50%, -50%);
 		}
 	}
+}
+
+.uix-modal {
+	/* Default component variables */
+	--uix-modal-background-color: var(--colors-surface-100, #ffffff);
+	--uix-modal-text-color: var(--colors-default-900, #111827);
+	--uix-modal-padding: calc(var(--spacing) * 6);
+	--uix-modal-border-radius: var(--radius-md);
+	--uix-modal-box-shadow: var(
+		--shadow-xl,
+		0 20px 25px -5px rgb(0 0 0 / 0.1),
+		0 8px 10px -6px rgb(0 0 0 / 0.1)
+	);
+	--uix-modal-max-width: var(--sizes-md, 64rem);
+	--uix-modal-animation-duration: 200ms;
+	--uix-modal-backdrop-background-color: rgb(0 0 0 / 0.5);
+	--uix-modal-close-top: var(--spacing-2, 0.5rem);
+	--uix-modal-close-right: var(--spacing-2, 0.5rem);
+
+	/* Host element acts as a non-visual wrapper */
+	display: contents;
+}
+
+.uix-modal > dialog {
+	width: 100%;
+	max-width: var(--uix-modal-max-width);
+	padding: var(--uix-modal-padding);
+	border-radius: var(--uix-modal-border-radius);
+	background-color: var(--uix-modal-background-color);
+	color: var(--uix-modal-text-color);
+	box-shadow: var(--uix-modal-box-shadow);
+	border: none;
+	opacity: 0;
+	transform: scale(0.95);
+	transition:
+		opacity var(--uix-modal-animation-duration) ease-out,
+		transform var(--uix-modal-animation-duration) ease-out;
+
+	position: absolute;
+	margin: auto;
+	z-index: 1000;
+	overflow-y: auto;
+	box-sizing: border-box;
+}
+
+/* Styles for the new close button */
+.uix-modal .uix-modal-close-button {
+	position: absolute;
+	top: var(--uix-modal-close-top);
+	right: var(--uix-modal-close-right);
+	z-index: 10;
+}
+
+.uix-modal > dialog::backdrop {
+	background-color: transparent;
+	backdrop-filter: blur(4px);
+	transition: background-color var(--uix-modal-animation-duration) ease-out;
+}
+
+/* --- Open State --- */
+.uix-modal > dialog[open] {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.uix-modal > dialog:not([open]) {
+	display: none;
+}
+
+.uix-modal > dialog[open]::backdrop {
+	background-color: var(--uix-modal-backdrop-background-color);
 }
 
 :where(.uix-link) {
